@@ -1,0 +1,9 @@
+[tool.pyright]
+include = ["api","api/apps"]
+exclude = ["**/migrations", "**/__pycache__", ".venv"]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.13"
+typeCheckingMode = "basic"
+reportMissingImports = true
+reportMissingTypeStubs = false
