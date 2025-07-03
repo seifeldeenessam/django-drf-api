@@ -59,11 +59,10 @@ static
 # Media files
 media
 
-# Django migrations
-migrations
-*/migrations/*.py
-*/migrations/*.pyc
-!*/migrations/__init__.py
+# Django migrations (uncomment if you want to ignore migrations)
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
 
 # Celery
 celerybeat-schedule
